@@ -1,4 +1,3 @@
-import time
 """
 Haz un programa que adivine la talla de pie y la edad del usuario que lo ejecute. Se basa en un sencillo truco matemático. 
 El programa debe pedir al usuario que realice las siguientes operaciones 
@@ -11,6 +10,8 @@ El programa debe pedir al usuario que realice las siguientes operaciones
     Sumarle 1023.
     Restarle el año de nacimiento.
 """
+
+import time
 
 print("Vamos a adivinar tu talla de pie con unas preguntas.")
 time.sleep(2.5)

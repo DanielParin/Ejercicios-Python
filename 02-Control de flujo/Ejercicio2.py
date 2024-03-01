@@ -1,7 +1,9 @@
-import random
+"""
+Programa que adivine el numero en el que está pensando (entre 0 y 100) el usuario 
+por tanteo (preguntando sucesivamente si es mayor o menor que un número aleatorio de partida)
+"""
 
-# Programa que adivine el numero en el que está pensando (entre 0 y 100) el usuario por tanteo (preguntando sucesivamente si es mayor o menor que un número
-# aleatorio de partida)
+import random
 
 numero_adivinar = random.randint(1,100)
 acertado = True

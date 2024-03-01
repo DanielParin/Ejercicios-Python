@@ -1,7 +1,8 @@
-import math
 """
 Dados los catetos de un triángulo rectángulo, calcular la hipotenusa.
 """
+
+import math
 
 cateto1 = float(input("Inserte el cateto 1:"))
 cateto2 = float(input("Inserte el cateto 2:"))
